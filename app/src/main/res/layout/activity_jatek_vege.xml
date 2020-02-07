@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JatekVege"
+
+    android:background="@drawable/bgimg"
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/TxtHScore"
+        android:layout_above="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="0000"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/TxtScore"
+        android:layout_below="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_above="@+id/TxtHScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="casual"
+        android:text="High Score : "
+        android:layout_centerHorizontal="true"
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="casual"
+        android:text="Your Score : "
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/UjraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtScore"
+        android:text="Játék"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:visibility="visible"
+        />
+    <Button
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/MenuBtn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UjraBtn"
+        android:text="Menü"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:visibility="visible"
+        />
+
+</RelativeLayout>
